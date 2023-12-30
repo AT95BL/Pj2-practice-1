@@ -7,4 +7,9 @@ public class Razarac extends VojnoPlovilo implements Radar, RaketniStit{
         this.naoruzanje[0] = new Raketa();
         this.naoruzanje[1] = new Torpedo();
     }
+
+    @Override
+    public String toString(){
+        return "Razarac \n" + super.toString();
+    }
 }

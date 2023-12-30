@@ -7,4 +7,9 @@ public class NosacAviona extends VojnoPlovilo implements Radar, RaketniStit, Tor
         this.naoruzanje[0] = new Raketa();
         this.naoruzanje[1] = new Torpedo();
     }
+
+    @Override
+    public String toString(){
+        return "Nosac Aviona:\n" + super.toString();
+    }
 }

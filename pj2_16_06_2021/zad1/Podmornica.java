@@ -6,4 +6,9 @@ public class Podmornica extends VojnoPlovilo implements Sonar, TorpedoStit {
         this.naoruzanje = new Naoruzanje[1];
         this.naoruzanje[0] = new Torpedo();
     }
+
+    @Override
+    public String toString(){
+        return "Podmornica\n" + super.toString();
+    }
 }
