@@ -10,7 +10,5 @@ All tasks require knowledge of the Java programming language,
 its API and functionality in order to:
 
 The 1st task refers to the field of competitive programming
-
 The 2nd task refers to working with collections and requires the use of java Stream-API
-
 The 3rd task refers to working with the Java io and nio packages 
